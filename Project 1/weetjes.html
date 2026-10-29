@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weetjes</title>
+    <link rel="icon" href="Afbeeldingen analyse/favicon.ico">
+    <style>
+        body {
+            background-color: #BAC1B8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+            display: flex;
+        }
+
+        ul li a {
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul li a:hover:not(.active) {
+            background-color: #111111;
+        }
+
+        ul li a.active {
+            background-color: #04aa6d;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h1 {
+            margin-bottom: 20px;
+        }
+
+        .weetje {
+            max-width: 650px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #E2E8E0;
+            border-radius: 12px;
+        }
+
+        .weetje h2 {
+            margin-bottom: 10px;
+        }
+
+        .weetje p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .weetje img {
+            width: 200px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .weetje img.grote-foto {
+            width: 360px;
+        }
+
+        .weetje table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .weetje caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .weetje th,
+        .weetje td {
+            border: 1px solid #333333;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .weetje th {
+            background-color: #BAC1B8;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="curriculum_vitae.html">Curriculum Vitae</a></li>
+        <li><a href="ervaring.html">Ervaring</a></li>
+        <li><a href="hobby.html">Hobby's</a></li>
+        <li><a class="active" href="weetjes.html">Weetjes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="content">
+        <h1>Weetjes over mij</h1>
+    </div>
+    <div class="weetje">
+        <h2>Van gaminghobby naar pro-gamer</h2>
+        <p>Wat begon als een hobby groeide uit tot iets groter. Ook al heb ik de grootste stap niet kunnen maken ben ik
+            alsnog blij dat ik 5x Belgisch kampioen gespeeld heb in het meest gespeelde competitie game van de wereld.
+        </p>
+
+
+        <img src="Afbeeldingen analyse/S1_Phoenix.webp" alt="foto van Maarten gaming">
+        <img src="Afbeeldingen analyse/s1win.jpg" alt="foto S1 win" class="grote-foto">
+
+    </div>
+
+    <div class="weetje">
+        <h2>Ik probeer mijn uithouding te verbeteren</h2>
+        <p>
+            Naast gamen ben ik ook sportief. Ondertussen loop ik 20km.
+        </p>
+    </div>
+
+    <div class="weetje">
+        <table>
+            <caption>Mijn prestaties en interesses</caption>
+            <tr>
+                <th>Onderwerp</th>
+                <th>Weetje</th>
+            </tr>
+            <tr>
+                <td>Gaming</td>
+                <td>5 keer Belgisch kampioen</td>
+            </tr>
+            <tr>
+                <td>Lopen</td>
+                <td>20km</td>
+            </tr>
+            <tr>
+                <td>Opleiding</td>
+                <td>Programmeren</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

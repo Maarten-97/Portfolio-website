@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="Afbeeldingen analyse/favicon.ico">
+    <style>
+        body {
+            background-color: #BAC1B8;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333333;
+            display: flex;
+        }
+
+        ul li a {
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul li a:hover:not(.active) {
+            background-color: #111111;
+        }
+
+        ul li a.active {
+            background-color: #04aa6d;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .content h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact-blok {
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #E2E8E0;
+            border-radius: 12px;
+        }
+
+        .contact-blok h2 {
+            margin-bottom: 15px;
+        }
+
+        .contact-blok p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .contact-blok img {
+            width: 200px;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .contact-blok form {
+            margin-top: 20px;
+        }
+
+        .contact-blok label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-blok input,
+        .contact-blok textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #999999;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .contact-blok textarea {
+            resize: vertical;
+        }
+
+        .contact-blok button {
+            padding: 10px 20px;
+            background-color: #333333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-blok button:hover {
+            background-color: #555555;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="curriculum_vitae.html">Curriculum Vitae</a></li>
+        <li><a href="ervaring.html">Ervaring</a></li>
+        <li><a href="hobby.html">Hobby's</a></li>
+        <li><a href="weetjes.html">Weetjes</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+    <div class="content">
+        <h1>Contact</h1>
+        <div class="contact-blok">
+            <h2>Neem contact met mij op</h2>
+            <p>
+                U kan contact met mij opnemen via e-mail. U kunt mij ook een bericht sturen via het onderstaande
+                contactformulier.
+            </p>
+
+            <p>
+                E-mailadres: 
+                <a href="Vandyckmaarten@school.com">
+                    Vandyckmaarten@school.com
+                </a>
+            </p>
+            <img src="Afbeeldingen analyse/mail.jpg" alt="Afbeelding van een mailbox">
+
+            <h2>Contactformulier</h2>
+
+            <form>
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam">
+
+                <label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="onderwerp">Onderwerp:</label>
+                <input type="text" id="onderwerp" name="onderwerp">
+
+                <label for="bericht">Je vraag of bericht:</label>
+                <textarea id="bericht" name="bericht" rows="5"></textarea>
+
+                <button type="button">Verzenden</button>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

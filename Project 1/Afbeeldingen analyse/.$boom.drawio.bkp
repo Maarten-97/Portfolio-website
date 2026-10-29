@@ -1,0 +1,30 @@
+<mxfile host="Electron">
+  <diagram name="Pagina-1" id="crIpEJpbUrJwf7_IoCSv">
+    <mxGraphModel dx="1441" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9A_s_UPGOoBpwOybLADg-12" edge="1" parent="1" source="9A_s_UPGOoBpwOybLADg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9A_s_UPGOoBpwOybLADg-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Startpagina - index&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="154" x="320" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9A_s_UPGOoBpwOybLADg-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CV" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9A_s_UPGOoBpwOybLADg-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ervaring" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="9A_s_UPGOoBpwOybLADg-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Hobby&#39;s" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9A_s_UPGOoBpwOybLADg-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Contact" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
