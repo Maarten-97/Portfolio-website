@@ -32,6 +32,13 @@ body {
     border-radius: 12px;
 }
 
+/* ervaring */
+.ervaring-logo {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin: 0 auto 15px;
+}
 
 
 
