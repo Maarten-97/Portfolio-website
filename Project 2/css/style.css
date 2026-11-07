@@ -40,6 +40,21 @@ body {
     margin: 0 auto 15px;
 }
 
+/* Afbeeldingen hobby */
+#carouselExampleCaptions .carousel-item img {
+    height: 250px;
+    object-fit: contain;
+}
 
+#carouselExampleCaptions .carousel-indicators {
+    bottom: 50px;
+}
 
+#carouselExampleCaptions .carousel-control-prev {
+    left: 20%;
+}
+
+#carouselExampleCaptions .carousel-control-next {
+    right: 20%;
+}
 
